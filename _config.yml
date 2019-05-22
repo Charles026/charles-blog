@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Mumumycat
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Charles
 language:
 timezone:
 
@@ -74,6 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: catustheme
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
