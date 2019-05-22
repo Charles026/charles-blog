@@ -10,13 +10,15 @@
     "login": "mumucat",
     "repo": "charles-blog",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque"
+    "postPath": "source/_posts/yuque",
+    "onlyPublished": true,
+    "adapter": "hexo"
   },
   "scripts": {
     "sync": "yuque-hexo sync",
     "clean:yuque": "yuque-hexo clean",
     "deploy": "npm run sync && hexo clean && hexo g -d",
-    "dev": "hexo clean && hexo server"
+    "dev": "npm run sync && hexo s"
   },
   "dependencies": {
     "hexo": "^3.7.0",
